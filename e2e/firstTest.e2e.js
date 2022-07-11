@@ -1,4 +1,4 @@
-describe('Example', () => {
+describe('My firts tests', () => {
   beforeAll(async () => {
     await device.launchApp();
   });
@@ -8,7 +8,7 @@ describe('Example', () => {
   });
 
   it('should have welcome screen', async () => {
-    await expect(element(by.id('welcome'))).toBeVisible();
+    await expect(element(by.id('tests with Detox'))).toBeVisible();
   });
 
   it('should show hello screen after tap', async () => {
